@@ -39,7 +39,7 @@ void displaySummary(struct Student student) {
 int main() {
     struct Student student;
     printf("Enter student name: ");
-    scanf("%s", student.name);
+    scanf("%s", &student);
     printf("Enter scores for 5 subjects:\n");
     for (int i = 0; i < 5; i++) {
         printf("Subject %d: ", i + 1);
